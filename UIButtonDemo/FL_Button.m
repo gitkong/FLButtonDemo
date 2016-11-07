@@ -35,6 +35,7 @@
 
 - (void)setStatus:(FLAlignmentStatus)status{
     _status = status;
+//    [self layoutIfNeeded];
 }
 #pragma mark - 左对齐
 - (void)alignmentLeft{
